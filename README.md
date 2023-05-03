@@ -63,6 +63,7 @@
 | FDU                                        | [OpenChineseLLaMA](https://github.com/OpenLMLab/OpenChineseLLaMA)                                                    | en/zh                    | LLaMA-7B                                   | further pretrain LLaMA on Chinese data, improving LLaMA preformance on Chinese tasks.                                                                                                                                                                                                                                                                                     |
 | @chenfeng357                               | [open-Chinese-ChatLLaMA](https://github.com/chenfeng357/open-Chinese-ChatLLaMA)                                      | en/zh                    | LLaMA                                      | The complete training code of the open-source Chinese-Llama model, including the full process from pre-training instructing and RLHF.                                                                                                                                                                                                                                      |
 | @FSoft-AI4Code                             | [CodeCapybara](https://github.com/FSoft-AI4Code/CodeCapybara)                                                        | en                       | LLaMA                                      | Open Source LLaMA Model that Follow Instruction-Tuning for Code Generation.                                                                                                                                                                                                                                                                                                |
+| @mbzuai-nlp                                | [https://github.com/mbzuai-nlp/LaMini-LM]()                                                                          | en                       | LLaMA/Flan-T5 ...                          | A Diverse Herd of Distilled Models from Large-Scale Instructions.                                                                                                                                                                                                                                                                                                          |
 
 # Base Models
 
@@ -85,3 +86,9 @@
 # Alignment
 
 RLHF、RRHF、RLAIF、RAFT
+
+# Multi-Language
+
+# Efficient Training
+
+# Low-Cost Inference
