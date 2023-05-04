@@ -92,3 +92,9 @@ RLHF、RRHF、RLAIF、RAFT
 # Efficient Training
 
 # Low-Cost Inference
+
+# Satefy
+
+| contributor | method                                                    | main feature                                                            |
+| ----------- | --------------------------------------------------------- | ----------------------------------------------------------------------- |
+| thu-coai    | [Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) | Chinese safety prompts for evaluating and improving the safety of LLMs. |
