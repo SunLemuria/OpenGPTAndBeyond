@@ -37,6 +37,7 @@ includes: base models, technologies, data, domain models, training pipelines, sp
 | ShanghaiTech, etc                  | [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)                                                               | medical    | en/zh    | ChatGLM-6B    | Chinese medical consultation model fine-tuned on ChatGLM-6B.                                                             |
 | Tsinghua AIR                       | [BioMedGPT-1.6B](https://github.com/BioFM/OpenBioMed)                                                                | biomedical | en/zh    | -             | a pre-trained multi-modal molecular foundation model with 1.6B parameters that associates 2D molecular graphs with texts. |
 | @LiuHC0428                         | [LawGPT_zh](https://github.com/LiuHC0428/LAW-GPT)                                                                    | legal      | zh       | ChatGLM-6B    | a general model in Chinese legal domain, the data is generated via Reliable-Self-Instruction.                           |
+| SJTU                               | [MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh)                                                    | medical    | zh       | ChatGLM-6B    | a general model in Chinese medical domain, a diverse data generated via self-instruct.                                   |
 
 # General Domain Instruction Models
 
