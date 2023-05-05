@@ -128,6 +128,7 @@ reliable-self-instruct
 | microsoft   | [deepspeed-chat](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat)     | Easy, Fast and Affordable RLHF Training of ChatGPT-like Models at All Scales.                                                                                                                                                                                |
 | LAION-AI    | [Open Assistant](https://github.com/LAION-AI/Open-Assistant)                                  | a project meant to give everyone access to a great chat based large language model.                                                                                                                                                                          |
 | HKUST       | [LMFlow](https://github.com/OptimalScale/LMFlow)                                              | an extensible, convenient, and efficient toolbox for finetuning large machine learning models,<br /> designed to be user-friendly, speedy and reliable, and accessible to the entire community.                                                              |
+| UC Berkeley | [EasyLM](https://github.com/young-geng/EasyLM)                                                | EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax.<br /> EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.                                      |
 
 # Alignment
 
