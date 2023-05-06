@@ -169,11 +169,8 @@ todo
 
 # Input Length Extrapolation
 
-| contributor | method                                 | main feature |
-| ----------- | -------------------------------------- | ------------ |
-|             | [ALiBi](https://arxiv.org/abs/2108.12409) |              |
-|             |                                        |              |
-
-- 基于RMT将 Transformer 扩展到 1M Tokens
-
-https://baai.org/l/25913
+| contributor      | method                                 | main feature                                                                                                                                                                                                                                                                             |
+| ---------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UW, etc.         | [ALiBi](https://arxiv.org/abs/2108.12409) | Instead of adding position embeddings at the bottom of the transformer stack,<br /> ALiBi adds a linear bias to each attention score, allowing the model to be trained on,<br /> for example, 1024 tokens, and then do inference on 2048 (or much more) tokens without any finetuning. |
+| DeepPavlov, etc. | [RMT](https://arxiv.org/abs/2304.11062)   | use a recurrent memory to extend the context length.                                                                                                                                                                                                                                    |
+| bytedance        | [SCM](https://arxiv.org/abs/2304.11062)   | unleash infinite-length input capacity for large-scale language models.                                                                                                                                                                                                                  |
