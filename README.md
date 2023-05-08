@@ -125,7 +125,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 | PKU/CMU/MSRA ... | [PandaLM](https://github.com/WeOpenML/PandaLM)      | Reproducible and Automated Language Model Assessment.                                                                                                                    |
 | UCB              | [Chatbot Arena](https://github.com/lm-sys/FastChat) | Chat with two anonymous models side-by-side and vote for which one is better,<br /> then use the Elo rating system to calculate the relative performance of the models. |
 
-# Framework/ToolKit
+# Framework/ToolKit/Platform
 
 | contributor | project                                                                                    | main feature                                                                                                                                                                                                                                                 |
 | ----------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -153,9 +153,18 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 todo
 
-# Efficient Training
+# Efficient Training/Fine-Tuning
 
-todo
+| contributor                              | method                                                    | main feature                                                                                                                                                                                                                                                                                            |
+| ---------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| microsoft                                | [LoRA](https://arxiv.org/abs/2106.09685)                     | Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices<br /> into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks.                                            |
+| stanford                                 | [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) | a lightweight alternative to fine-tuning for natural language generation tasks, which keeps language model parameters frozen<br /> and instead optimizes a sequence of continuous task-specific vectors, which we call the prefix.                                                                      |
+| THU                                      | [P-Tuning](https://arxiv.org/abs/2103.10385)                 | P-tuning leverages few continuous free parameters to serve as prompts fed as the input to the pre-trained language models.<br />We then optimize the continuous prompts using gradient descent as an alternative to discrete prompt searching.                                                        |
+| THU/BAAI/<br />Shanghai Qi Zhi Institute | [P-Tuning v2](https://arxiv.org/pdf/2110.07602.pdf)          | a novel empirical finding that properly optimized prompt tuning can be comparable to fine-tuning universally across various model scales and NLU tasks.<br />Technically, P-tuning v2 is not conceptually novel. It can be viewed as an optimized and adapted implementation of Deep Prompt Tuning. |
+| Google                                   | [Prompt Tuning](https://arxiv.org/abs/2104.08691)            | a simple yet effective mechanism for learning "soft prompts" to condition frozen language models to perform specific downstream tasks.<br />Prompt Tuning can be seen as a simplification of "prefix tuning".                                                                                         |
+| GT/Princeton/microsoft                   | [AdaLoRA](https://arxiv.org/abs/2303.10512)                  | adaptively allocates the parameter budget among weight matrices according to their importance score.<br /> In particular, AdaLoRA parameterizes the incremental updates in the form of singular value decomposition.                                                                                    |
+
+acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 
 # Low-Cost Inference
 
