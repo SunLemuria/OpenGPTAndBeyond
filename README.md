@@ -173,6 +173,7 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 | @ggerganov    | [llama.cpp](https://github.com/ggerganov/llama.cpp)      | multi    | LLaMA       | c/cpp implementation for llama and some other models, using quantization.                                                                                                                                                                                    |
 | @NouamaneTazi | [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) | multi    | BLOOMZ      | C++ implementation for BLOOM inference.                                                                                                                                                                                                                       |
 | @mlc-ai       | [MLC LLM](https://github.com/mlc-ai/mlc-llm)             | multi    | -           | a universal solution that allows any language models to be deployed natively on a diverse set of hardware backends and native applications,<br />plus a productive framework for everyone to further optimize model performance for their own use cases.   |
+| alibaba       | [ChatGLM-MNN](https://github.com/wangzhaode/ChatGLM-MNN) | en/zh    | ChatGLM-6B  | converts the ChatGLM-6B model to MNN and performs inference using C++.                                                                                                                                                                                       |
 
 # Satefy
 
