@@ -139,6 +139,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 | LAION-AI    | [Open Assistant](https://github.com/LAION-AI/Open-Assistant)                                  | a project meant to give everyone access to a great chat based large language model.                                                                                                                                                                          |
 | HKUST       | [LMFlow](https://github.com/OptimalScale/LMFlow)                                              | an extensible, convenient, and efficient toolbox for finetuning large machine learning models,<br /> designed to be user-friendly, speedy and reliable, and accessible to the entire community.                                                              |
 | UCB         | [EasyLM](https://github.com/young-geng/EasyLM)                                                | EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax.<br /> EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.                                      |
+| @CogStack   | [OpenGPT](https://github.com/CogStack/opengpt)                                                | A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs).                                                                                                                         |
 
 # Alignment
 
