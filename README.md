@@ -8,6 +8,10 @@ This repo aims at recording this process, and providing an overview of how to ge
 
 Including: base models, technologies, data, domain models, training pipelines, speed up techniques, multi-language, multi-modal, and more to go.
 
+thanks [@FunnySaltyFish](https://github.com/FunnySaltyFish) for the [website version](https://llm.best/), here is the [code](https://github.com/FunnySaltyFish/best_llm).
+
+Any contribution to this project and the website is appreciated! (we are short of hands ...)
+
 # Base Models
 
 | contributor                                | model/project                                                                                   | multi-modal | license    | language | main feature                                                                                                                                                                                                                                                                                                                                                                    |
