@@ -162,7 +162,12 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 ## vocabulary expansion
 
-todo
+according to the official [FAQ](https://github.com/facebookresearch/llama/blob/main/FAQ.md#4-other-languages) in LLaMA repo, there's not many tokens other than latin languages, so one of the efforts is to expand the vocabulary, some works are shown below:
+
+| contributor | model/project                                                      | language | base model |
+| ----------- | ------------------------------------------------------------------ | -------- | ----------- |
+| @ymcui      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | zh       | LLaMA       |
+| SZU         | [Linly](https://github.com/CVI-SZU/Linly)                             | en/zh    | LLaMA       |
 
 # Efficient Training/Fine-Tuning
 
