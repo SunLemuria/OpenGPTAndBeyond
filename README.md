@@ -165,10 +165,11 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 according to the official [FAQ](https://github.com/facebookresearch/llama/blob/main/FAQ.md#4-other-languages) in LLaMA repo, there's not many tokens other than latin languages, so one of the efforts is to expand the vocabulary, some works are shown below:
 
-| contributor | model/project                                                      | language | base model |
-| ----------- | ------------------------------------------------------------------ | -------- | ----------- |
-| @ymcui      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | zh       | LLaMA       |
-| SZU         | [Linly](https://github.com/CVI-SZU/Linly)                             | en/zh    | LLaMA       |
+| contributor | model/project                                                      | language | base model | main feature                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------ | -------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @ymcui      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | zh       | LLaMA       |                                                                                                                                                                                                |
+| SZU         | [Linly](https://github.com/CVI-SZU/Linly)                             | en/zh    | LLaMA       | full-size LLaMA, further pretrained on Chineses Corpus.                                                                                                                                        |
+| @Neutralzz  | [BiLLa](https://github.com/Neutralzz/BiLLa)                           | en/zh    | LLaMA-7B    | further pretrained on[Wudao](https://www.sciencedirect.com/science/article/pii/S2666651021000152)、[PILE](https://arxiv.org/abs/2101.00027)、[WMT](https://www.statmt.org/wmt22/translation-task.html). |
 
 # Efficient Training/Fine-Tuning
 
