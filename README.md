@@ -12,6 +12,29 @@ thanks [@FunnySaltyFish](https://github.com/FunnySaltyFish) for the [website ver
 
 Any contribution to this project and the website is appreciated! (we are short of hands ...)
 
+# Table of Contents
+
+- [Base Models](#base-models)
+- [Domain Models](#domain-models)
+
+* [General Domain Instruction Models](#general-domain-instruction-models)
+
+- [Multi-Modal](#multi-modal)
+- [Data](#data)
+  - [Pretrain Data](#pretrain-data)
+  - [Instruction Data](#instruction-data)
+  - [Synthetic Data Generation](#synthetic-data-generation)
+- [Evaluation](#evaluation)
+- [Framework/ToolKit/Platform](#frameworktoolkitplatform)
+- [Alignment](#alignment)
+- [Multi-Language](#multi-language)
+  - [vocabulary expansion](#vocabulary-expansion)
+- [Efficient Training/Fine-Tuning](t#efficient-trainingfine-tuning)
+- [Low-Cost Inference](#low-cost-inference)
+- [Satefy](#satefy)
+- [Input Length Extrapolation](#input-length-extrapolation)
+- [Similar Projects](#similar-projects)
+
 # Base Models
 
 | contributor                                | model/project                                                                                   | multi-modal | license     | language | main feature                                                                                                                                                                                                                                                                                                                                                                    |
