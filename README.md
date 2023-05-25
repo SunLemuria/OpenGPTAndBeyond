@@ -16,9 +16,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 
 - [Base Models](#base-models)
 - [Domain Models](#domain-models)
-
-* [General Domain Instruction Models](#general-domain-instruction-models)
-
+- [General Domain Instruction Models](#general-domain-instruction-models)
 - [Multi-Modal](#multi-modal)
 - [Data](#data)
   - [Pretrain Data](#pretrain-data)
