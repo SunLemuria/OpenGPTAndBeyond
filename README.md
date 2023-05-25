@@ -29,7 +29,7 @@ Any contribution to this project and the website is appreciated! (we are short o
   - [vocabulary expansion](#vocabulary-expansion)
 - [Efficient Training/Fine-Tuning](t#efficient-trainingfine-tuning)
 - [Low-Cost Inference](#low-cost-inference)
-- [Satefy](#satefy)
+- [Safety](#safety)
 - [Input Length Extrapolation](#input-length-extrapolation)
 - [Similar Projects](#similar-projects)
 
@@ -228,7 +228,7 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 | FMInference                      | [FlexGen](https://github.com/FMInference/FlexGen)                 | FlexGen is a high-throughput generation engine for running large language models with limited GPU memory.<br /> FlexGen allows**high-throughput** generation by IO-efficient offloading, compression, and  **large effective batch sizes** .                                                                              |
 | huggingface<br />bigcode-project | [starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | C++ implemention for 💫 StarCoder inference using the[ggml](https://github.com/ggerganov/ggml) library.                                                                                                                                                                                                                                |
 
-# Satefy
+# Safety
 
 | contributor | method                                                    | main feature                                                            |
 | ----------- | --------------------------------------------------------- | ----------------------------------------------------------------------- |
