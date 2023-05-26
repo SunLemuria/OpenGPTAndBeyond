@@ -247,12 +247,13 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 
 # External Knowledge
 
-allowing the model to connect to external knowledge, such as KG、databases.
+allowing the model to access external knowledge, such as KG、databases.
 
-| contributor    | project                                                              | main feature                                                                        |
-| -------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| @jerryjliu     | [LlamaIndex](https://github.com/jerryjliu/llama_index)                  | provides a central interface to connect your LLM's with external data.              |
-| @imClumsyPanda | [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) | local knowledge based ChatGLM with[langchain](https://github.com/hwchase17/langchain). |
+| contributor    | project                                                              | main feature                                                                                                                                                                                                              |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @jerryjliu     | [LlamaIndex](https://github.com/jerryjliu/llama_index)                  | provides a central interface to connect your LLM's with external data.                                                                                                                                                    |
+| @imClumsyPanda | [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) | local knowledge based ChatGLM with[langchain](https://github.com/hwchase17/langchain).                                                                                                                                       |
+| @wenda-LLM     | [wenda](https://github.com/wenda-LLM/wenda)                             | an LLM calling platform[ ](https://github.com/wenda-LLM/wenda)designed to find and design automatic execution actions for small model plug-in<br /> knowledge bases to achieve the same generation ability as large models. |
 
 # Similar Collections
 
