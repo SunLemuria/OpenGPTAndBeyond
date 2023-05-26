@@ -31,7 +31,8 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Low-Cost Inference](#low-cost-inference)
 - [Safety](#safety)
 - [Input Length Extrapolation](#input-length-extrapolation)
-- [Similar Projects](#similar-projects)
+- [External Knowledge](#external-knowledge)
+- [Similar Collections](#similar-collections)
 
 # Base Models
 
@@ -244,7 +245,16 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 | bytedance        | [SCM](https://arxiv.org/abs/2304.11062)                            | unleash infinite-length input capacity for large-scale language models.                                                                                                                                                                                                                  |
 | BlinkDL          | [RWKV-LM](https://github.com/BlinkDL/RWKV-LM)                      | pure RNN.                                                                                                                                                                                                                                                                                |
 
-# Similar Projects
+# External Knowledge
+
+allowing the model to connect to external knowledge, such as KG、databases.
+
+| contributor    | project                                                              | main feature                                                                        |
+| -------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| @jerryjliu     | [LlamaIndex](https://github.com/jerryjliu/llama_index)                  | provides a central interface to connect your LLM's with external data.              |
+| @imClumsyPanda | [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) | local knowledge based ChatGLM with[langchain](https://github.com/hwchase17/langchain). |
+
+# Similar Collections
 
 | collections of open instruction-following llms                         |
 | ---------------------------------------------------------------------- |
