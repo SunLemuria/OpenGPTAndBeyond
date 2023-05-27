@@ -32,6 +32,8 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Safety](#safety)
 - [Input Length Extrapolation](#input-length-extrapolation)
 - [External Knowledge](#external-knowledge)
+- [External Tools](#external-tools)
+- [Autonomus Problem Solving](#autonomus-problem-solving)
 - [Similar Collections](#similar-collections)
 
 # Base Models
@@ -254,6 +256,21 @@ allowing the model to access external knowledge, such as KG、databases.
 | @jerryjliu     | [LlamaIndex](https://github.com/jerryjliu/llama_index)                  | provides a central interface to connect your LLM's with external data.                                                                                                                                                    |
 | @imClumsyPanda | [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) | local knowledge based ChatGLM with[langchain](https://github.com/hwchase17/langchain).                                                                                                                                       |
 | @wenda-LLM     | [wenda](https://github.com/wenda-LLM/wenda)                             | an LLM calling platform[ ](https://github.com/wenda-LLM/wenda)designed to find and design automatic execution actions for small model plug-in<br /> knowledge bases to achieve the same generation ability as large models. |
+
+# External Tools
+
+allowing the model to access external tools, such as search engine、api.
+
+| contributor   | project                                          | base model | main feature                                                                    |
+| ------------- | ------------------------------------------------ | ---------- | ------------------------------------------------------------------------------- |
+| UCB/microsoft | [Gorilla](https://github.com/ShishirPatil/gorilla/) | LLaMA      | invokes 1,600+ (and growing) API calls accurately while reducing hallucination. |
+
+# Autonomus Problem Solving
+
+| contributor           | project                                                   | driven by | main feature                                                                                             |
+| --------------------- | --------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------- |
+| @Significant-Gravitas | [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) | GPT-4     | chains together LLM "thoughts", to autonomously achieve whatever goal you set.                           |
+| microsoft             | [HuggingGPT](https://github.com/microsoft/JARVIS)            | GPT-4     | Language serves as an interface for LLMs to connect numerous AI models for solving complicated AI tasks! |
 
 # Similar Collections
 
