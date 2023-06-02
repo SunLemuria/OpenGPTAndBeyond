@@ -27,7 +27,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Alignment](#alignment)
 - [Multi-Language](#multi-language)
   - [vocabulary expansion](#vocabulary-expansion)
-- [Efficient Training/Fine-Tuning](t#efficient-trainingfine-tuning)
+- [Efficient Training/Fine-Tuning](#efficient-trainingfine-tuning)
 - [Low-Cost Inference](#low-cost-inference)
 - [Safety](#safety)
 - [Input Length Extrapolation](#input-length-extrapolation)
