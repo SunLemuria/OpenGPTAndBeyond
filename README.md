@@ -298,3 +298,4 @@ allowing the model to access external tools, such as search engine、api.
 | [LLM-Zoo](https://github.com/DAMO-NLP-SG/LLM-Zoo)                                           |
 | [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)                                   |
 | [🤗 Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) |
+| [Open LLMs](https://github.com/eugeneyan/open-llms)                                         |
