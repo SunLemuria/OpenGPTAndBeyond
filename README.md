@@ -232,6 +232,13 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 
 # Low-Cost Inference
 
+## quantization
+
+| contributor | algorithm                             | main feature                                                                                                                                                                                                     |
+| ----------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UW, etc.    | [SpQR](https://github.com/Vahe1994/SpQR) | a new compressed format and quantization technique which enables for the first time near-lossless compression of LLMs across model scales,<br /> while reaching similar compression levels to previous methods. |
+
+## projects
 | contributor                      | project                                                        | main feature                                                                                                                                                                                                                                                                                                                              |
 | -------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | @ggerganov                       | [llama.cpp](https://github.com/ggerganov/llama.cpp)               | c/cpp implementation for llama and some other models, using quantization.                                                                                                                                                                                                                                                                |
