@@ -286,9 +286,10 @@ allowing the model to access external knowledge, such as KG、databases.
 
 allowing the model to access external tools, such as search engine、api.
 
-| contributor   | project                                          | base model | main feature                                                                    |
-| ------------- | ------------------------------------------------ | ---------- | ------------------------------------------------------------------------------- |
-| UCB/microsoft | [Gorilla](https://github.com/ShishirPatil/gorilla/) | LLaMA      | invokes 1,600+ (and growing) API calls accurately while reducing hallucination. |
+| contributor   | project                                          | base model | main feature                                                                                                                                                                                                                                                                                                                                           |
+| ------------- | ------------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| UCB/microsoft | [Gorilla](https://github.com/ShishirPatil/gorilla/) | LLaMA      | invokes 1,600+ (and growing) API calls accurately while reducing hallucination.                                                                                                                                                                                                                                                                        |
+| THU           | [ToolLLaMA](https://github.com/OpenBMB/ToolBench)   | LLaMA      | This project aims to construct **open-source, large-scale, high-quality** instruction tuning SFT data to facilitate the construction<br /> of powerful LLMs with general **tool-use** capability. We provide the dataset, the corresponding training and evaluation scripts,<br /> and a capable model ToolLLaMA fine-tuned on ToolBench. |
 
 # Autonomus Problem Solving
 
