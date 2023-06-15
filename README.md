@@ -179,12 +179,13 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 # Evaluation
 
-| contributor      | method                                           | main feature                                                                                                                                                             |
-| ---------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| -                | human evalation                                  | -                                                                                                                                                                        |
-| OpenAI           | GPT-4/ChatGPT                                    | -                                                                                                                                                                        |
-| PKU/CMU/MSRA ... | [PandaLM](https://github.com/WeOpenML/PandaLM)      | Reproducible and Automated Language Model Assessment.                                                                                                                    |
-| UCB              | [Chatbot Arena](https://github.com/lm-sys/FastChat) | Chat with two anonymous models side-by-side and vote for which one is better,<br /> then use the Elo rating system to calculate the relative performance of the models. |
+| contributor      | method                                              | main feature                                                                                                                                                             |
+| ---------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -                | human evalation                                     | -                                                                                                                                                                        |
+| OpenAI           | GPT-4/ChatGPT                                       | -                                                                                                                                                                        |
+| PKU/CMU/MSRA ... | [PandaLM](https://github.com/WeOpenML/PandaLM)         | Reproducible and Automated Language Model Assessment.                                                                                                                    |
+| UCB              | [Chatbot Arena](https://github.com/lm-sys/FastChat)    | Chat with two anonymous models side-by-side and vote for which one is better,<br /> then use the Elo rating system to calculate the relative performance of the models. |
+| Stanford         | [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) | GPT-4/Claude evaluation on[AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm/tree/main) dataset.                                                                        |
 
 # Framework/ToolKit/Platform
 
