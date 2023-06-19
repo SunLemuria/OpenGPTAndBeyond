@@ -323,3 +323,4 @@ allowing the model to access external tools, such as search engine、api.
 | [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)                                   |
 | [🤗 Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) |
 | [Open LLMs](https://github.com/eugeneyan/open-llms)                                         |
+| [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)                    |
