@@ -292,6 +292,7 @@ allowing the model to access external knowledge, such as KG、databases.
 | @jerryjliu     | [LlamaIndex](https://github.com/jerryjliu/llama_index)                  | provides a central interface to connect your LLM's with external data.                                                                                                                                                    |
 | @imClumsyPanda | [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM) | local knowledge based ChatGLM with[langchain](https://github.com/hwchase17/langchain).                                                                                                                                       |
 | @wenda-LLM     | [wenda](https://github.com/wenda-LLM/wenda)                             | an LLM calling platform[ ](https://github.com/wenda-LLM/wenda)designed to find and design automatic execution actions for small model plug-in<br /> knowledge bases to achieve the same generation ability as large models. |
+| @csunny        | [DB-GPT](https://github.com/csunny/DB-GPT)                              | build a complete private large model solution for all database-based scenarios.                                                                                                                                           |
 
 # External Tools
 
