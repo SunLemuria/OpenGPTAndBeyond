@@ -33,6 +33,8 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Input Length Extrapolation](#input-length-extrapolation)
 - [External Knowledge](#external-knowledge)
 - [External Tools](#external-tools)
+  - [Using Existing Tools](using-existing-tools)
+  - [Make New Tools](make-new-tools)
 - [Autonomus Problem Solving](#autonomus-problem-solving)
 - [Similar Collections](#similar-collections)
 
@@ -89,7 +91,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 | NUS                                | [Goat](https://github.com/liutiedong/goat)                                                                            | arithmetic      | en       | LLaMA         | a fine-tuned LLaMA model that significantly outperforms GPT-4 on a range of arithmetic tasks.<br /> Fine-tuned on a synthetically generated dataset, Goat achieves state-ofthe-art performance on BIG-bench arithmetic sub-task.    |
 | CU/NYU                             | [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)                                                             | finance         | en       | -             | an end-to-end open-source framework for financial large language models (FinLLMs).                                                                                                                                                    |
 | microsoft                          | [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder)                                             | code generation | en       | StarCoder     | trained with**78k** evolved code instructions. surpasses  **Claude-Plus (+6.8)** , **Bard (+15.3)** and **InstructCodeT5+ (+22.3)** on the [HumanEval Benchmarks](https://github.com/openai/human-eval).         |
-| UCAS                               | [Cornucopia](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)                                          | finance         | zh       | LLaMA         | finetune LLaMA on Chinese financial knowledge,                                                                                                                                                                                        |
+| UCAS                               | [Cornucopia](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)                                          | finance         | zh       | LLaMA         | finetune LLaMA on Chinese financial knowledge,                                                                                                                                                                                         |
 
 # General Domain Instruction Models
 
@@ -191,7 +193,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 | PKU/CMU/MSRA ... | [PandaLM](https://github.com/WeOpenML/PandaLM)         | Reproducible and Automated Language Model Assessment.                                                                                                                    |
 | UCB              | [Chatbot Arena](https://github.com/lm-sys/FastChat)    | Chat with two anonymous models side-by-side and vote for which one is better,<br /> then use the Elo rating system to calculate the relative performance of the models. |
 | Stanford         | [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) | GPT-4/Claude evaluation on[AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm/tree/main) dataset.                                                                        |
-| clueai           | [SuperCLUElyb](https://www.superclueai.com/)           | Chinese version of [Chatbot Arena](https://github.com/lm-sys/FastChat) developed by clueai.                                                                               |
+| clueai           | [SuperCLUElyb](https://www.superclueai.com/)           | Chinese version of[Chatbot Arena](https://github.com/lm-sys/FastChat) developed by clueai.                                                                                 |
 
 # Framework/ToolKit/Platform
 
@@ -277,7 +279,7 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 | huggingface<br />bigcode-project | [starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp) | C++ implemention for 💫 StarCoder inference using the[ggml](https://github.com/ggerganov/ggml) library.                                                                                                                                                                                                                                    |
 | CMU                              | [SpecInfer](https://github.com/flexflow/FlexFlow/tree/inference)  | SpecInfer is an open-source distributed multi-GPU system that accelerates generative LLM inference with**speculative inference** and  **token tree verification**.<br /> A key insight behind SpecInfer is to combine various collectively boost-tuned small speculative models (SSMs) to jointly predict the LLM’s outputs. |
 | @ztxz16                          | [fastllm](https://github.com/ztxz16/fastllm)                      | full-platform pure c++ llm acceleration library, supports moss, chatglm, baichuan models,  runs smoothly on mobile phones.                                                                                                                                                                                                              |
-| UCB                              | [vllm](https://github.com/vllm-project/vllm)                      | a fast and easy-to-use library for LLM inference and serving. fast with Efficient management of attention key and value memory with **PagedAttention.**                                                                                                                                                                          |
+| UCB                              | [vllm](https://github.com/vllm-project/vllm)                      | a fast and easy-to-use library for LLM inference and serving. fast with Efficient management of attention key and value memory with**PagedAttention.**                                                                                                                                                                            |
 
 # Safety
 
@@ -307,12 +309,20 @@ allowing the model to access external knowledge, such as KG、databases.
 
 # External Tools
 
+## Using Existing Tools
+
 allowing the model to access external tools, such as search engine、api.
 
 | contributor   | project                                          | base model | main feature                                                                                                                                                                                                                                                                                                                                         |
 | ------------- | ------------------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | UCB/microsoft | [Gorilla](https://github.com/ShishirPatil/gorilla/) | LLaMA      | invokes 1,600+ (and growing) API calls accurately while reducing hallucination.                                                                                                                                                                                                                                                                      |
 | THU           | [ToolLLaMA](https://github.com/OpenBMB/ToolBench)   | LLaMA      | This project aims to construct**open-source, large-scale, high-quality** instruction tuning SFT data to facilitate the construction<br /> of powerful LLMs with general **tool-use** capability. We provide the dataset, the corresponding training and evaluation scripts,<br /> and a capable model ToolLLaMA fine-tuned on ToolBench. |
+
+## Make New Tools
+
+| contributor  | project                                       | main feature                                              |
+| ------------ | --------------------------------------------- | --------------------------------------------------------- |
+| Google, etc. | [LATM](https://github.com/ctlllll/LLM-ToolMaker) | LLMs create their own reusable tools for problem-solving. |
 
 # Autonomus Problem Solving
 
