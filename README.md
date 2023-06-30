@@ -337,13 +337,14 @@ allowing the model to access external tools, such as search engine、api.
 
 # Similar Collections
 
-| collections of open instruction-following llms                                           |
-| ---------------------------------------------------------------------------------------- |
-| [开源微调大型语言模型（LLM）合集](https://zhuanlan.zhihu.com/p/628716889)                   |
-| [机器之心SOTA!模型](https://sota.jiqizhixin.com/models/list)                                |
-| [Awesome Totally Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)    |
-| [LLM-Zoo](https://github.com/DAMO-NLP-SG/LLM-Zoo)                                           |
-| [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)                                   |
-| [🤗 Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) |
-| [Open LLMs](https://github.com/eugeneyan/open-llms)                                         |
-| [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)                    |
+| collections of open instruction-following llms                                                              |
+| ----------------------------------------------------------------------------------------------------------- |
+| [开源微调大型语言模型（LLM）合集](https://zhuanlan.zhihu.com/p/628716889)                                      |
+| [机器之心SOTA!模型](https://sota.jiqizhixin.com/models/list)                                                   |
+| [Awesome Totally Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)                       |
+| [LLM-Zoo](https://github.com/DAMO-NLP-SG/LLM-Zoo)                                                              |
+| [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)                                                      |
+| [🤗 Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)                    |
+| [Open LLMs](https://github.com/eugeneyan/open-llms)                                                            |
+| [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)                                       |
+|  [Awesome Pretrained Chinese NLP Models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) |
