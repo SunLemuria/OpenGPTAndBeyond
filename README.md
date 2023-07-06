@@ -263,9 +263,10 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 
 ## quantization
 
-| contributor | algorithm                             | main feature                                                                                                                                                                                                     |
-| ----------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| UW, etc.    | [SpQR](https://github.com/Vahe1994/SpQR) | a new compressed format and quantization technique which enables for the first time near-lossless compression of LLMs across model scales,<br /> while reaching similar compression levels to previous methods. |
+| contributor | algorithm                                                                           | main feature                                                                                                                                                                                                                                                                                              |
+| ----------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UW, etc.    | [SpQR](https://github.com/Vahe1994/SpQR)                                               | a new compressed format and quantization technique which enables for the first time near-lossless compression of LLMs across model scales,<br /> while reaching similar compression levels to previous methods.                                                                                          |
+| THU         | [Train_Transformers_with_INT4](https://github.com/xijiu9/Train_Transformers_with_INT4) | For forward propagation, we identify the challenge of outliers and propose a Hadamard quantizer to suppress the outliers.<br /> For backpropagation, we leverage the structural sparsity of gradients by proposing bit splitting and leverage score sampling techniques to quantize gradients accurately. |
 
 ## projects
 
