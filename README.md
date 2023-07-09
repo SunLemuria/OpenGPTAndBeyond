@@ -364,3 +364,4 @@ allowing the model to access external tools, such as search engine、api.
 | [Open LLMs](https://github.com/eugeneyan/open-llms)                                                           |
 | [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)                                      |
 | [Awesome Pretrained Chinese NLP Models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) |
+|  [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey)                                                           |
