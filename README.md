@@ -221,6 +221,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 | @CogStack   | [OpenGPT](https://github.com/CogStack/opengpt)                                                | A framework for creating grounded instruction based datasets and training conversational domain expert Large Language Models (LLMs).                                                                                                                         |
 | HugAILab    | [HugNLP](https://github.com/HugAILab/HugNLP)                                                  | a unified and comprehensive NLP library based on HuggingFace Transformer.                                                                                                                                                                                    |
 | ProjectD-AI | [LLaMA-Megatron-DeepSpeed](https://github.com/ProjectD-AI/LLaMA-Megatron-DeepSpeed)           | Ongoing research training transformer language models at scale, including: BERT & GPT-2.                                                                                                                                                                     |
+| @PanQiWei   | [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ)                                              | An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.                                                                                                                                                                   |
 
 # Alignment
 
