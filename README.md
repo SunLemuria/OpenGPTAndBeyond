@@ -196,6 +196,11 @@ see also: [awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/
 
 see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/main/CN_README.md#3-%E6%95%B0%E6%8D%AE%E9%9B%86%E5%90%88-data-collection)
 
+| contributor | data                                                    | language | main feature                                                                                                                  |
+| ----------- | ------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| salesforce  | [DialogStudio](https://github.com/salesforce/DialogStudio) | en       | DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI. |
+
+
 ## Synthetic Data Generation
 
 | contributor | method                                                                                              | main feature                                                                                                                                                                                                                                                                                                               |
