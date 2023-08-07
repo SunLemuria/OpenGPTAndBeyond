@@ -34,6 +34,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Truthfulness](#truthfulness)
 - [Extend Context Window](#extend-context-window)
 - [Knowledge Editing](#knowledge-editing)
+  - [Implementations](#implementations)
 - [External Knowledge](#external-knowledge)
 - [External Tools](#external-tools)
   - [Using Existing Tools](using-existing-tools)
@@ -345,9 +346,18 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 
 # Knowledge Editing
 
+Must-read Papers on Model Editing: [ModelEditingPapers](https://github.com/zjunlp/ModelEditingPapers)
+
 | contributor | method                         | main feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ----------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | MIT, etc.   | [ROME](https://rome.baulab.info/) | First, we trace the causal effects of hidden state activations within GPT using causal mediation analysis to identify the specific modules that mediate recall of a fact about a subject.<br /> Our analysis reveals that feedforward MLPs at a range of middle layers are decisive when processing the last token of the subject name.<br />Second, we test this finding in model weights by introducing a Rank-One Model Editing method (ROME) to alter the parameters that determine a feedfoward layer’s behavior at the decisive token.<br />Despite the simplicity of the intervention, we find that ROME is similarly effective to other modelediting approaches on a standard zero-shot relation extraction benchmark. |
+
+## Implementations
+
+| contributor | project                                      | main feature                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PKU         | [FastEdit](https://github.com/hiyouga/FastEdit) | injecting **fresh** and **customized** knowledge into large language models efficiently using one single command.                                                                                                                                                                                                                                                             |
+| ZJU         | [EasyEdit](https://github.com/zjunlp/EasyEdit)  | a Python package for edit Large Language Models (LLM) like `GPT-J`, `Llama`, `GPT-NEO`, `GPT2`, `T5`(support models from **1B** to  **65B** ), <br />the objective of which is to alter the behavior of LLMs efficiently within a specific domain without negatively impacting performance across other inputs. It is designed to be easy to use and easy to extend. |
 
 # External Knowledge
 
