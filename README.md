@@ -31,6 +31,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Efficient Training/Fine-Tuning](#efficient-trainingfine-tuning)
 - [Low-Cost Inference](#low-cost-inference)
 - [Safety](#safety)
+- [Truthfulness](#truthfulness)
 - [Extend Context Window](#extend-context-window)
 - [External Knowledge](#external-knowledge)
 - [External Tools](#external-tools)
@@ -322,6 +323,12 @@ acknowledgement: [HuggingFace Peft](https://github.com/huggingface/peft)
 | contributor | method                                                    | main feature                                                            |
 | ----------- | --------------------------------------------------------- | ----------------------------------------------------------------------- |
 | thu-coai    | [Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) | Chinese safety prompts for evaluating and improving the safety of LLMs. |
+
+# Truthfulness
+
+| contributor | method                                        | main feature                                                                                                                                                                                                                                                                                                                                               |
+| ----------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Harvard     | [ITI](https://github.com/likenneth/honest_llama) | ITI operates by shifting model activations during inference, following a set of directions across a limited number of attention heads.<br /> This intervention significantly improves the performance of LLaMA models on the TruthfulQA benchmark.<br /> On an instruction-finetuned LLaMA called Alpaca, ITI improves its truthfulness from 32.5 to 65.1. |
 
 # Extend Context Window
 
