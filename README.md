@@ -39,7 +39,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [External Tools](#external-tools)
   - [Using Existing Tools](using-existing-tools)
   - [Make New Tools](make-new-tools)
-- [Autonomus Problem Solving](#autonomus-problem-solving)
+- [Agent](#agent)
 - [Similar Collections](#similar-collections)
 
 # Base Models
@@ -401,7 +401,7 @@ allowing the model to access external tools, such as search engine、api.
 | ------------ | --------------------------------------------- | --------------------------------------------------------- |
 | Google, etc. | [LATM](https://github.com/ctlllll/LLM-ToolMaker) | LLMs create their own reusable tools for problem-solving. |
 
-# Autonomus Problem Solving
+# Agent
 
 | contributor           | project                                                                 | driven by | main feature                                                                                                                                                                                                                                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -410,6 +410,7 @@ allowing the model to access external tools, such as search engine、api.
 | microsoft             | [HuggingGPT](https://github.com/microsoft/JARVIS)                          | GPT-4     | Language serves as an interface for LLMs to connect numerous AI models for solving complicated AI tasks!                                                                                                                                                                                                                           |
 | microsoft/NCSU        | [ReWOO](https://github.com/billxbf/ReWOO)                                  | -         | detaches the reasoning process from external observations, thus significantly reducing token consumption.                                                                                                                                                                                                                          |
 | Stanford              | [generative_agents](https://github.com/joonspk-research/generative_agents) | GPT       | Generative Agents: Interactive Simulacra of Human Behavior.                                                                                                                                                                                                                                                                        |
+| THU, etc.             | [AgentVerse](https://github.com/OpenBMB/AgentVerse)                        | GPT       | 🤖 AgentVerse 🪐 provides a flexible framework that simplifies the process of building custom multi-agent environments for large language models (LLMs).                                                                                                                                                                           |
 
 # Similar Collections
 
