@@ -206,9 +206,10 @@ see also: [awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/
 
 ## Pretrain Data
 
-| contributor      | data                                                              | language | main feature                                               |
+| contributor      | data/project                                                      | language | main feature                                               |
 | ---------------- | ----------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
 | TogetherComputer | [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) | en       | An Open Source Recipe to Reproduce LLaMA training dataset. |
+| @goldsmith       | [Wikipedia](https://github.com/goldsmith/Wikipedia)                  | multi    | A Pythonic wrapper for the Wikipedia API.                  |
 
 ## Instruction Data
 
