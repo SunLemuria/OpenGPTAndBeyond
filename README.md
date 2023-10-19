@@ -439,6 +439,8 @@ allowing the model to access external tools, such as search engine、api.
 | THU, etc.             | [AgentVerse](https://github.com/OpenBMB/AgentVerse)                        | GPT       | 🤖 AgentVerse 🪐 provides a flexible framework that simplifies the process of building custom multi-agent environments for large language models (LLMs).                                                                                                                                                                           |
 | BUAA, etc.            | [TrafficGPT](https://github.com/lijlansg/TrafficGPT)                       | GPT       | By seamlessly intertwining large language model and traffic expertise, TrafficGPT not only advances traffic<br />management but also offers a novel approach to leveraging AI capabilities in this domain.                                                                                                                       |
 
+paper list: [LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)
+
 # Similar Collections
 
 | collections of open instruction-following llms                                                             |
