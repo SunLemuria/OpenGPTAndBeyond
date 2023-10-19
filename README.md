@@ -118,6 +118,8 @@ Any contribution to this project and the website is appreciated! (we are short o
 
 some medical models: [here](https://mp.weixin.qq.com/s/c6aPU2FALAaa4LWKQ8W1uA)
 
+some domain llms: [Awesome-Domain-LLM](https://github.com/luban-agi/Awesome-Domain-LLM)
+
 # General Domain Instruction Models
 
 | contributor                       | model/project                                                                                                                     | language | base model                                         | main feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
