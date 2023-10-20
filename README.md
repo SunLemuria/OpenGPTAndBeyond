@@ -32,6 +32,7 @@ Any contribution to this project and the website is appreciated! (we are short o
   - [vocabulary expansion](#vocabulary-expansion)
 - [Efficient Training/Fine-Tuning](#efficient-trainingfine-tuning)
 - [Low-Cost Inference](#low-cost-inference)
+- [Prompting](#prompting)
 - [Safety](#safety)
 - [Truthfulness](#truthfulness)
 - [Exceeding Context Window](#exceeding-context-window)
@@ -42,6 +43,7 @@ Any contribution to this project and the website is appreciated! (we are short o
   - [Using Existing Tools](using-existing-tools)
   - [Make New Tools](make-new-tools)
 - [Agent](#agent)
+- [LLMs as XXX](#llms-as-xxx)
 - [Similar Collections](#similar-collections)
 
 # Base Models
@@ -355,6 +357,14 @@ according to the official [FAQ](https://github.com/facebookresearch/llama/blob/m
 | stanford                         | [mpt-30B-inference](https://github.com/abacaj/mpt-30B-inference)  | Run inference on the latest MPT-30B model using your CPU. This inference code uses a[ggml](https://github.com/ggerganov/ggml) quantized model.                                                                                                                                                                                               |
 | Shanghai AI Lab                  | [lmdeploy](https://github.com/InternLM/lmdeploy)                  | a toolkit for compressing, deploying, and serving LLM.                                                                                                                                                                                                                                                                                    |
 
+# Prompting
+
+| contributor     | method                                                                                                    | main feature                                                                                                                                                                                                                                                                                                                                          |
+| --------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google          | [CoT](https://arxiv.org/pdf/2201.11903.pdf)                                                                  | a technique that allows large language models (LLMs) to solve a problem as a series of intermediate steps before giving a final answer.                                                                                                                                                                                                               |
+| Princeton, etc. | ToT([Yao et el. (2023)](https://arxiv.org/abs/2305.10601) and [Long (2023)](https://arxiv.org/abs/2305.08291)) | ToT maintains a tree of thoughts, where thoughts represent coherent language sequences that serve as intermediate steps toward solving a problem.<br /> This approach enables an LM to self-evaluate the progress intermediate thoughts make towards solving a problem through a deliberate reasoning process.                                        |
+| SJTU, etc.      | [GoT](https://arxiv.org/pdf/2305.16582.pdf)                                                                  | we propose Graph-of-Thought (GoT) reasoning, which models human thought processes not only as a chain but also as a graph. By representing thought units as nodes<br />and connections between them as edges, our approach captures the non-sequential nature of human thinking and allows for a more realistic modeling of thought processes. |
+
 # Safety
 
 | contributor | method                                                    | main feature                                                            |
@@ -449,6 +459,12 @@ allowing the model to access external tools, such as search engine、api.
 | BUAA, etc.            | [TrafficGPT](https://github.com/lijlansg/TrafficGPT)                       | GPT       | By seamlessly intertwining large language model and traffic expertise, TrafficGPT not only advances traffic<br />management but also offers a novel approach to leveraging AI capabilities in this domain.                                                                                                                       |
 
 paper list: [LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)
+
+# LLMs as XXX
+
+| contributor     | method                                    | main feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google DeepMind | [OPRO](https://arxiv.org/pdf/2309.03409.pdf) | large language models as optimizers.Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language models (LLMs)<br />as optimizers, where the optimization task is described in natural language. In each optimization step, the LLM generates new solutions from the prompt that<br />contains previously generated solutions with their values, then the new solutions are evaluated and added to the prompt for the next optimization step. |
 
 # Similar Collections
 
