@@ -251,10 +251,11 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 ## Benchmark
 
-| contributor | benchmark                                            | main feature                                                                                                                                                                                                                                   |
-| ----------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| princeton   | [SWE-bench](https://github.com/princeton-nlp/SWE-bench) | a benchmark for evaluating large language models on real world software issues collected from GitHub. Given a*codebase* and an  *issue*,<br /> a language model is tasked with generating a *patch* that resolves the described problem. |
-| microsoft   | [AGIEval](https://github.com/ruixiangcui/AGIEval)       | a human-centric benchmark specifically designed to evaluate the general abilities of foundation models in tasks pertinent to human cognition and problem-solving.                                                                              |
+| contributor | benchmark                                                        | main feature                                                                                                                                                                                                                                   |
+| ----------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| princeton   | [SWE-bench](https://github.com/princeton-nlp/SWE-bench)             | a benchmark for evaluating large language models on real world software issues collected from GitHub. Given a*codebase* and an  *issue*,<br /> a language model is tasked with generating a *patch* that resolves the described problem. |
+| microsoft   | [AGIEval](https://github.com/ruixiangcui/AGIEval)                   | a human-centric benchmark specifically designed to evaluate the general abilities of foundation models in tasks pertinent to human cognition and problem-solving.                                                                              |
+| clueai      | [SuperCLUE-Agent](https://github.com/CLUEbenchmark/SuperCLUE-Agent) | Agent evaluation benchmark based on Chinese native tasks.                                                                                                                                                                                      |
 
 ## LeaderBoard
 
