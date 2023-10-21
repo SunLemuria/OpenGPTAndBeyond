@@ -249,6 +249,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 | UCB              | [Chatbot Arena](https://github.com/lm-sys/FastChat)    | Chat with two anonymous models side-by-side and vote for which one is better,<br /> then use the Elo rating system to calculate the relative performance of the models. |
 | Stanford         | [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) | GPT-4/Claude evaluation on[AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm/tree/main) dataset.                                                                        |
 | clueai           | [SuperCLUElyb](https://www.superclueai.com/)           | Chinese version of[Chatbot Arena](https://github.com/lm-sys/FastChat) developed by clueai.                                                                                 |
+| SJTU, etc.       | [Auto-J](https://github.com/GAIR-NLP/auto-j)           | a new open-source generative judge that can effectively evaluate different LLMs on how they align to human preference.                                                   |
 
 ## Benchmark
 
