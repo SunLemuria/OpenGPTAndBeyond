@@ -123,6 +123,8 @@ some medical models: [here](https://mp.weixin.qq.com/s/c6aPU2FALAaa4LWKQ8W1uA)
 
 some domain llms: [Awesome-Domain-LLM](https://github.com/luban-agi/Awesome-Domain-LLM)
 
+healcare models: [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+
 # General Domain Instruction Models
 
 | contributor                       | model/project                                                                                                                     | language | base model                                         | main feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
