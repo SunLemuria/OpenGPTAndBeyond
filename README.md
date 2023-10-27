@@ -267,7 +267,7 @@ see [Alpaca-CoT data collection](https://github.com/PhoebusSi/Alpaca-CoT/blob/ma
 
 ## LeaderBoard
 
-opencompass, huggingface
+[opencompass](https://opencompass.org.cn/leaderboard-llm), huggingface
 
 # Framework/ToolKit/Platform
 
@@ -289,6 +289,7 @@ opencompass, huggingface
 | alibaba         | [swift](https://github.com/modelscope/swift)                                                  | SWIFT (Scalable lightWeight Infrastructure for Fine-Tuning) is an extensible framwork designed to faciliate lightweight model fine-tuning and inference.<br /> It integrates implementations for various efficient fine-tuning methods, by embracing approaches that is parameter-efficient, memory-efficient, and time-efficient. |
 | alibaba         | [Megatron-LLaMA](https://github.com/alibaba/Megatron-LLaMA)                                   | to facilitate the training of LLaMA-based models and reduce the cost on occupying hardware resources,<br /> Alibaba decides to release the internal optimized Megatron-LLaMA training framework to the community.                                                                                                                  |
 | Shanghai AI Lab | [XTuner](https://github.com/InternLM/xtuner)                                                  | A toolkit for efficiently fine-tuning LLM (InternLM, Llama, Baichuan, QWen, ChatGLM2).                                                                                                                                                                                                                                             |
+| alibaba         | [MFTCoder](https://github.com/codefuse-ai/MFTCoder)                                           | **CodeFuse-MFTCoder** is an open-source project of CodeFuse for multitasking Code-LLMs(large language model for code tasks),<br /> which includes models, datasets, training codebases and inference guides.                                                                                                                 |
 
 # Alignment
 
