@@ -19,23 +19,20 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [General Domain Instruction Models](#general-domain-instruction-models)
 - [Alternatives To Transformer](#alternatives-to-transformer)
 - [Multi-Modal](#multi-modal)
-- [Data](#data)
-
+- [MoE](#moe)
+- [Data  ](#data)
   - [Pretrain Data](#pretrain-data)
   - [Instruction Data](#instruction-data)
   - [Synthetic Data Generation](#synthetic-data-generation)
 - [Evaluation](#evaluation)
-
   - [Benchmark](#enchmark)
   - [LeaderBoard](#leaderboard)
 - [Framework/ToolKit/Platform](#frameworktoolkitplatform)
 - [Alignment](#alignment)
 - [Multi-Language](#multi-language)
-
   - [vocabulary expansion](#vocabulary-expansion)
 - [Efficient Training/Fine-Tuning](#efficient-trainingfine-tuning)
 - [Low-Cost Inference](#low-cost-inference)
-
   - [quantization](#quantization)
   - [projects](#projects)
   - [Prompt Compression](#prompt-compression)
@@ -44,11 +41,9 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Truthfulness](#truthfulness)
 - [Exceeding Context Window](#exceeding-context-window)
 - [Knowledge Editing](#knowledge-editing)
-
   - [Implementations](#implementations)
 - [External Knowledge](#external-knowledge)
 - [External Tools](#external-tools)
-
   - [Using Existing Tools](using-existing-tools)
   - [Make New Tools](make-new-tools)
 - [Agent](#agent)
@@ -222,6 +217,13 @@ healcare models: [Awesome-Healthcare-Foundation-Models](https://github.com/Jiani
 | stanford       | [Bapcpack](https://backpackmodels.science)               | A[Backpack](https://arxiv.org/abs/2305.16765) is a drop-in replacement for a Transformer that provides new tools for **interpretability-through-control** while still enabling strong language models.<br /> Backpacks decompose the predictive meaning of words into components non-contextually, and aggregate them by a weighted sum, allowing for precise, predictable interventions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | stanford, etc. | [Monarch Mixer (M2)](https://github.com/HazyResearch/m2) | The basic idea is to replace the major elements of a Transformer with Monarch matrices — which are a class of structured matrices that generalize the FFT and are sub-quadratic,<br /> hardware-efficient, and expressive. In Monarch Mixer, we use layers built up from Monarch matrices to do both mixing across the sequence (replacing the Attention operation) and mixing across the model dimension (replacing the dense MLP).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | CMU, etc.      | [Mamba](https://github.com/state-spaces/mamba)           | Mamba is a new state space model architecture showing promising performance on information-dense data such as language modeling, where previous subquadratic models fall short of Transformers. It is based on the line of progress on[structured state space models](https://github.com/state-spaces/s4), with an efficient hardware-aware design and implementation in the spirit of [FlashAttention](https://github.com/Dao-AILab/flash-attention).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+# MoE
+
+| contributor           | model/project                                                   | main feature                                                                                                                                                                                                                                                                                                                  |
+| --------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| mistralai             | [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) | The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts. The Mistral-8x7B outperforms Llama 2 70B on most benchmarks we tested.                                                                                                                                                      |
+| Shanghai AI Lab, etc. | [LLaMA-MoE](https://github.com/pjlab-sys4nlp/llama-moe)            | A small and affordable MoE model based on[LLaMA](https://github.com/facebookresearch/llama) and [SlimPajama](https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama). The number of activated model parameters is only 3.0~3.5B, which is friendly for deployment and research usage. |
 
 # Multi-Modal
 
