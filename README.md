@@ -43,6 +43,8 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Knowledge Editing](#knowledge-editing)
   - [Implementations](#implementations)
 - [External Knowledge](#external-knowledge)
+  - [Chat with Docs](chat-with-docs)
+  - [Vector DataBase](vector-database)
 - [External Tools](#external-tools)
   - [Using Existing Tools](using-existing-tools)
   - [Make New Tools](make-new-tools)
@@ -536,6 +538,14 @@ allowing the model to access external knowledge, such as internet、KG、databas
 | contributor | project                                  | main feature                                                 |
 | ----------- | ---------------------------------------- | ------------------------------------------------------------ |
 | @arc53      | [DocsGPT](https://github.com/arc53/DocsGPT) | GPT-powered chat for documentation, chat with your documents |
+
+## Vector DataBase
+
+| contributor | db                                              | main feature                                                                                                                                                                                                                                                                                                         |
+| ----------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| milvus-io   | [milvus](https://github.com/milvus-io/milvus)      | a cloud-native vector database with storage and computation separated by design.                                                                                                                                                                                                                                     |
+| Meta        | [faiss](https://github.com/facebookresearch/faiss) | It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. |
+| nmslib      | [hnswlib](https://github.com/nmslib/hnswlib)       | Header-only C++ HNSW implementation with python bindings, insertions and updates.                                                                                                                                                                                                                                    |
 
 # External Tools
 
