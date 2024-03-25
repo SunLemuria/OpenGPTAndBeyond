@@ -541,6 +541,8 @@ allowing the model to access external knowledge, such as internet、KG、databas
 | ----------- | ---------------------------------------- | ------------------------------------------------------------ |
 | @arc53      | [DocsGPT](https://github.com/arc53/DocsGPT) | GPT-powered chat for documentation, chat with your documents |
 
+more at: [funNLP](https://github.com/fighting41love/funNLP?tab=readme-ov-file#%E7%B1%BBchatgpt%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94)
+
 ## Vector DataBase
 
 | contributor | db                                              | main feature                                                                                                                                                                                                                                                                                                         |
