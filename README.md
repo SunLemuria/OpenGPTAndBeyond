@@ -1,4 +1,4 @@
-# gOpen Source ChatGPT and Beyond
+# Open Source ChatGPT and Beyond
 
 On the road to implement open-source ChatGPT-like models and beyond.
 
@@ -563,6 +563,7 @@ more at: [funNLP](https://github.com/fighting41love/funNLP?tab=readme-ov-file#%E
 | milvus-io   | [milvus](https://github.com/milvus-io/milvus)      | a cloud-native vector database with storage and computation separated by design.                                                                                                                                                                                                                                     |
 | Meta        | [faiss](https://github.com/facebookresearch/faiss) | It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. |
 | nmslib      | [hnswlib](https://github.com/nmslib/hnswlib)       | Header-only C++ HNSW implementation with python bindings, insertions and updates.                                                                                                                                                                                                                                    |
+| MyScale     | [MyScaleDB](https://github.com/myscale/myscaledb)  | An open-source, high-performance SQL vector database built on ClickHouse.                                                                                                                                                                                                                                            |
 
 # External Tools
 
