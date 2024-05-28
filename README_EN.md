@@ -8,11 +8,10 @@ This repo aims at recording this process, and providing an overview of how to ge
 
 Including: base models, technologies, data, domain models, training pipelines, speed up techniques, multi-language, multi-modal, and more to go.
 
-thanks [@FunnySaltyFish](https://github.com/FunnySaltyFish) for the [website version](https://llm.best/), here is the [code](https://github.com/FunnySaltyFish/best_llm).
 
-Any contribution to this project and the website is appreciated! (we are short of hands ...)
+<details>
 
-# Table of Contents
+<summary># Table of Contents</summary>
 
 - [Base Models](#base-models)
 - [Domain Models](#domain-models)
@@ -21,7 +20,7 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Alternatives To Transformer](#alternatives-to-transformer)
 - [Multi-Modal](#multi-modal)
 - [MoE](#moe)
-- [Data  ](#data)
+- [Data](#data)
   - [Pretrain Data](#pretrain-data)
   - [Instruction Data](#instruction-data)
   - [Synthetic Data Generation](#synthetic-data-generation)
@@ -44,14 +43,17 @@ Any contribution to this project and the website is appreciated! (we are short o
 - [Knowledge Editing](#knowledge-editing)
   - [Implementations](#implementations)
 - [External Knowledge](#external-knowledge)
-  - [Chat with Docs](chat-with-docs)
-  - [Vector DataBase](vector-database)
+  - [Chat with Docs](#chat-with-docs)
+  - [Content Parsing](#content-parsing)
+  - [Vector DataBase](#vector-database)
 - [External Tools](#external-tools)
-  - [Using Existing Tools](using-existing-tools)
-  - [Make New Tools](make-new-tools)
+  - [Using Existing Tools](#using-existing-tools)
+  - [Make New Tools](#make-new-tools)
 - [Agent](#agent)
 - [LLMs as XXX](#llms-as-xxx)
 - [Similar Collections](#similar-collections)
+
+</details>
 
 # Base Models
 
@@ -565,6 +567,12 @@ allowing the model to access external knowledge, such as internet、KG、databas
 | @arc53      | [DocsGPT](https://github.com/arc53/DocsGPT) | GPT-powered chat for documentation, chat with your documents |
 
 more at: [funNLP](https://github.com/fighting41love/funNLP?tab=readme-ov-file#%E7%B1%BBchatgpt%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94)
+
+## Content Parsing
+
+| contributor | project                                                                 | main feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| alibaba     | [OmniParser](https://github.com/alibabaresearch/advancedliteratemachinery) | a universal model for parsing visually-situated text across diverse scenarios, called OmniParser, which can simultaneously handle three typical visually-situated text parsing tasks: text spotting, key information extraction, and table recognition. In OmniParser, all tasks share the**unified encoder-decoder architecture** , the unified objective:  **point-conditioned text generation** , and the unified input & output representation:  **prompt & structured sequences** . |
 
 ## Vector DataBase
 

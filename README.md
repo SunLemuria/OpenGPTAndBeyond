@@ -8,10 +8,6 @@ LLaMA权重意外泄露、以及斯坦福小羊驼用以self-instruct方式从gp
 
 包括：相关技术进展、基础模型、领域模型、训练、推理、技术、数据、多语言、多模态，等等
 
-感谢[@FunnySaltyFish](https://github.com/FunnySaltyFish)开发了一个[网页版](https://llm.best/)，这是[网站代码](https://github.com/FunnySaltyFish/best_llm)。
-
-欢迎对这个repo和网站做任何贡献。
-
 <details>
 
 <summary># 目录</summary>
@@ -23,7 +19,7 @@ LLaMA权重意外泄露、以及斯坦福小羊驼用以self-instruct方式从gp
 - [Alternatives To Transformer](#alternatives-to-transformer)
 - [Multi-Modal](#multi-modal)
 - [MoE](#moe)
-- [Data  ](#data)
+- [Data](#data)
   - [Pretrain Data](#pretrain-data)
   - [Instruction Data](#instruction-data)
   - [Synthetic Data Generation](#synthetic-data-generation)
@@ -46,11 +42,12 @@ LLaMA权重意外泄露、以及斯坦福小羊驼用以self-instruct方式从gp
 - [Knowledge Editing](#knowledge-editing)
   - [Implementations](#implementations)
 - [External Knowledge](#external-knowledge)
-  - [Chat with Docs](chat-with-docs)
-  - [Vector DataBase](vector-database)
+  - [Chat with Docs](#chat-with-docs)
+  - [内容解析](#内容解析)
+  - [Vector DataBase](#vector-database)
 - [External Tools](#external-tools)
-  - [Using Existing Tools](using-existing-tools)
-  - [Make New Tools](make-new-tools)
+  - [Using Existing Tools](#using-existing-tools)
+  - [Make New Tools](#make-new-tools)
 - [Agent](#agent)
 - [LLMs as XXX](#llms-as-xxx)
 - [Similar Collections](#similar-collections)
@@ -569,6 +566,12 @@ allowing the model to access external knowledge, such as internet、KG、databas
 | @arc53      | [DocsGPT](https://github.com/arc53/DocsGPT) | GPT-powered chat for documentation, chat with your documents |
 
 more at: [funNLP](https://github.com/fighting41love/funNLP?tab=readme-ov-file#%E7%B1%BBchatgpt%E7%9A%84%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94)
+
+## 内容解析
+
+| 贡献者 | 项目                                                                     | 主要特征                                                                                                                                                                                                                                                                                                                                          |
+| ------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 阿里   | [OmniParser](https://github.com/alibabaresearch/advancedliteratemachinery)  | 设计了一个通用模型OmniParser，可以同时处理3个典型的视觉情境文本解析任务：文本识别、关键信息提取和表格识别。在OmniParser中，所有任务共享统一的编码器-解码器架构，统一的目标：条件文本生成，以及统一的输入和输出表示：提示和结构化序列。广泛的实验表明，OmniParser在三个视觉位置的文本解析任务的7个数据集上取得了最先进的(SOTA)或极具竞争力的性能。 |
 
 ## Vector DataBase
 
